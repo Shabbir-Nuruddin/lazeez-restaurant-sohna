@@ -26,7 +26,7 @@ export const SITE: Site = {
     weight: 700,
     upper: true,
   },
-  scene: "handi",
+  scene: "pour",
   align: "right",
   hero: {
     title: [
@@ -86,9 +86,32 @@ export const SITE: Site = {
     address: { en: "Near Vishwakarma Glass House, Durga Colony, Sohna", hi: "विश्वकर्मा ग्लास हाउस के पास, दुर्गा कॉलोनी, सोहना" },
     note: { en: "A reviewer’s directions: “It's located near the Sohna Bus Stand on the Sohna Road.”", hi: "एक रिव्यू के मुताबिक: सोहना रोड पर, सोहना बस स्टैंड के पास।" },
   },
+  pour: { from: "pan", into: "kadhai", liquid: "#9a2c16", foam: "#c4502a", thick: 2, hot: true, extras: "handi" },
+  story: [
+    { kicker: { en: "The handi", hi: "हांडी" }, title: { en: "Handi chicken, khameeri roti.", hi: "हांडी चिकन, ख़मीरी रोटी।" }, quote: "Handi chicken with Khameeri Roti was just amazing." },
+    { kicker: { en: "The ghee", hi: "घी" }, title: { en: "Rogan josh, finished in ghee.", hi: "घी वाला रोगन जोश।" }, quote: "Chicken Rogan Josh - This as expected was subtle and had ghee in it." },
+    { kicker: { en: "The welcome", hi: "स्वागत" }, title: { en: "You walk in to a smile.", hi: "मुस्कान के साथ स्वागत।" }, quote: "Loved this place for the quality of food they serve and you will be invited with a smile" },
+  ],
+  build: {
+    title: { en: "Build your order in a few taps", hi: "कुछ टैप में अपना ऑर्डर बनाइए" },
+    body: { en: "Tap the dishes guests rave about, set how many and when. It goes to WhatsApp exactly as you see it.", hi: "मेहमानों की पसंदीदा डिश टैप करें, कितने लोग और कब, चुनें। मैसेज व्हाट्सऐप पर ठीक ऐसे ही जाएगा।" },
+    items: [
+      { en: "Handi Chicken", hi: "हांडी चिकन" },
+      { en: "Khameeri Roti", hi: "ख़मीरी रोटी" },
+      { en: "Chicken Lollipop", hi: "चिकन लॉलीपॉप" },
+      { en: "Chicken Tikka", hi: "चिकन टिक्का" },
+      { en: "Chicken Rara", hi: "चिकन रारा" },
+      { en: "Masala Chicken", hi: "मसाला चिकन" },
+      { en: "Butter Paneer Masala", hi: "बटर पनीर मसाला" },
+      { en: "Chicken Rogan Josh", hi: "चिकन रोगन जोश" },
+    ],
+    people: true,
+    when: true,
+    hello: { en: "Hi Lazeez, I'd like:", hi: "नमस्ते लज़ीज़, मुझे चाहिए:" },
+  },
   waHello: {
     en: "Hi Lazeez, I'd like to order / book a table. Items or people: , time: ",
     hi: "नमस्ते लज़ीज़, मुझे ऑर्डर करना है / टेबल बुक करनी है। आइटम या लोग: , समय: ",
   },
-  order: ["feature", "reviews", "gallery", "visit"],
+  order: ["build", "feature", "reviews", "gallery", "visit"],
 };
